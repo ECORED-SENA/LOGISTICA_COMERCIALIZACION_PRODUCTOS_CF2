@@ -4,8 +4,8 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal
       .titulo-principal__numero
-        span 2
-      h1 Manejo de los recursos y transporte según negociaciones
+        span 3
+      h1 Programación de tiempos en la cadena de suministro
 
     .cajon-b.color-primario.p-3
       p(data-aos="fade-up") El plazo de entrega o período de entrega, se refiere al tiempo que transcurre desde que se hace un pedido a un proveedor, hasta que la mercancía se entrega desde el distribuidor al comprador. El funcionamiento de este criterio es necesario para la organización de todos los procesos a lo largo de la cadena de suministro. Desde un punto de vista teórico, el tiempo de ciclo de los pedidos se refiere al tiempo que transcurre desde que se realiza un pedido a un proveedor hasta que se entrega al cliente.
@@ -67,7 +67,7 @@
 
 <script>
 export default {
-  name: 'Tema4',
+  name: 'Tema3',
   data: () => ({}),
   mounted() {
     this.$nextTick(() => {
