@@ -31,8 +31,6 @@ export default {
 <style lang="sass">
 .titulo-principal__numero
   background-color: #FF5151
-.titulo-principal__numero span
-  color: #fff !important
 .curso-main-container > .container
     overflow-x: inherit !important
 .titulo-segundo:after
@@ -42,4 +40,6 @@ export default {
   margin-right: 0px !important
 .titulo-principal__numero
   background-color: #34D9C7
+.banner-interno__titulo__icono i
+    color: #11263f
 </style>

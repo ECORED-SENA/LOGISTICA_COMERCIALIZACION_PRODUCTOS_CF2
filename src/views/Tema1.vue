@@ -5,13 +5,13 @@
     .titulo-principal
       .titulo-principal__numero
         span 1
-      h1 Normativa vigente
+      h1 Clasificación de proveedores e información de mercancías
 
     .row
       .col-md-7
         .cajon-b.color-primario.p-3
           p(data-aos="fade-up") La selección de proveedores es un proceso que está presente en toda organización, ya que la compra de bienes y servicios como maquinaria, materias primas, servicios de limpieza, entre otros, es elemental, por lo que este proceso debe estar enfocado a una investigación de calidad.
-          p.mt-3(data-aos="fade-up") Es conocido, en la mayoría de las empresas, que el departamento de compras o abastecimiento delega en realizar la investigación y selección de los proveedores que mejor se adapten a las necesidades de la organización. La clave en la selección de proveedores de un producto o servicio radica en el valor de saber qué criterios utilizar para seleccionarlos, ya que se debe tener en cuenta qué tipo de efecto tendrán los productos o servicios que proporcionan y si esto tendrá un efecto positivo en la productividad, la calidad y la competitividad de la propia organización.
+          p.mt-3(data-aos="fade-up") Es conocido, en la mayoría de las empresas, que al departamento de compras o abastecimiento se delega en realizar la investigación y selección de los proveedores que mejor se adapten a las necesidades de la organización. La clave en la selección de proveedores de un producto o servicio radica en el valor de saber qué criterios utilizar para seleccionarlos, ya que se debe tener en cuenta qué tipo de efecto tendrán los productos o servicios que proporcionan y si esto tendrá un efecto positivo en la productividad, la calidad y la competitividad de la propia organización.
           p.mt-3(data-aos="fade-up") La búsqueda y selección de proveedores se puede hacer por diferentes motivos, ya sea porque la organización comienza a operar y no tiene proveedores, la organización ya tiene proveedores, pero no satisfacen sus necesidades y necesita mejor calidad, o quiere ampliar la cartera de proveedores para que la organización tenga un parámetro de comparación y ver si quiere mejorar.
       .col-md-5
         img(src="@/assets/curso/tema1/1.svg" data-aos="fade-left")
@@ -44,21 +44,21 @@
 
     .col-md-10.m-auto
       .row.mt-5
-        .col-md-4
+        .col-lg-4
           .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
             .indicador--hover(v-if="indicadorTarjetaFlip")
             .tarjeta-flip__contenedor
               .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/6.svg')})`}")
               .tarjeta-flip__contenido.p-5(style="background-color:#34D9C7;")
                 h3.mt-5.mb-5.text-white.text-center Tiempo de entrega
-        .col-md-4
+        .col-lg-4
           .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
             .indicador--hover(v-if="indicadorTarjetaFlip")
             .tarjeta-flip__contenedor
               .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/7.svg')})`}")
               .tarjeta-flip__contenido.p-5(style="background-color:#7B1FA2;")
                 h3.mt-5.mb-5.text-white.text-center Formas y plazos de pago
-        .col-md-4
+        .col-lg-4
           .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
             .indicador--hover(v-if="indicadorTarjetaFlip")
             .tarjeta-flip__contenedor
@@ -68,21 +68,21 @@
 
     .col-md-10.m-auto
       .row.mt-5
-        .col-md-4
+        .col-lg-4
           .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
             .indicador--hover(v-if="indicadorTarjetaFlip")
             .tarjeta-flip__contenedor
               .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/9.svg')})`}")
               .tarjeta-flip__contenido.p-5(style="background-color:#7B1FA2;")
                 h3.mt-5.mb-5.text-white.text-center Descuentos por volumen
-        .col-md-4
+        .col-lg-4
           .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
             .indicador--hover(v-if="indicadorTarjetaFlip")
             .tarjeta-flip__contenedor
               .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/10.svg')})`}")
               .tarjeta-flip__contenido.p-5(style="background-color:#34D9C7;")
                 h3.mt-5.mb-5.text-white.text-center Calidad
-        .col-md-4
+        .col-lg-4
           .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
             .indicador--hover(v-if="indicadorTarjetaFlip")
             .tarjeta-flip__contenedor
@@ -98,7 +98,7 @@
           div
             p(data-aos="fade-up") Permitir un procesamiento más rápido y automatizado de los datos, así como el análisis de toda la información relevante para tomar una decisión.
           div
-            p(data-aos="fade-up") Permitir un almacenamiento más eficiente de todos los procesos de decisión para permitir el acceso a la información para casos futuros.
+            p(data-aos="fade-up") Permitir un almacenamiento más eficiente de todos los procesos de decisión para proporcionar el acceso a la información en casos futuros.
           div
             p(data-aos="fade-up") Eliminar criterios y alternativas redundantes en los procesos de decisión.
           div
@@ -135,7 +135,7 @@
         .row
           .col-md-6
             h4 Razonamiento basado en casos
-            p.mt-2 Es un sistema de software gestionado por una base de datos que recoge información relevante de los procesos de decisión y evaluación de situaciones o casos ocurridos con anterioridad. Esto permite al responsable de la toma de decisiones, basarse en información útil y en la experiencia de situaciones conocidas. El modelo posibilita una gestión exitosa de la contratación, ya que al tener en cuenta los avances logrados en procesos anteriores, no da lugar a que se vuelvan a cometer los mismos errores, sobre todo porque reutiliza la información relevante para proponer un modelo combinado.
+            p.mt-2 Es un sistema de #[em software] gestionado por una base de datos que recoge información relevante de los procesos de decisión y evaluación de situaciones o casos ocurridos con anterioridad. Esto permite al responsable de la toma de decisiones, basarse en información útil y en la experiencia de situaciones conocidas. El modelo posibilita una gestión exitosa de la contratación, ya que al tener en cuenta los avances logrados en procesos anteriores, no da lugar a que se vuelvan a cometer los mismos errores, sobre todo porque reutiliza la información relevante para proponer un modelo combinado.
           .col-md-6
             img(src="@/assets/curso/tema1/16.svg")
       .tarjeta.color-acento-botones--borde.p-4(titulo="Métodos de selección final")
@@ -165,7 +165,7 @@ export default {
 </script>
 <style lang="sass">
 .cajon-b.color-primario:before
-  background-color: #E7EEFD
+  background-color: #CFDDFC
 .cajon-b:before
   bottom: 76%
 .color2:before
@@ -177,6 +177,7 @@ export default {
   left: 45%
 .pasos-a.color-acento-botones .pasos-a__circle div
     color: white
+    text-transform: lowercase
 .pasos-a.color-acento-botones .pasos-a__circle
     background-color: #5C22C3
 .pasos-a.color-acento-botones .pasos-a__linea .hor-line
@@ -194,4 +195,9 @@ export default {
     border: none !important
 .tabs-a.color-acento-botones .tabs-a__tab:hover, .tabs-a.color-acento-botones .tabs-a__tab:active, .tabs-a.color-acento-botones .tabs-a__tab:focus
     background-color: #34D9C7
+.tarjeta-flip__contenido h3
+  word-break: break-all
+.tarjeta-flip__contenido
+  display: flex
+  align-items: center
 </style>

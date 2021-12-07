@@ -1,7 +1,6 @@
 export default {
   global: {
-    componenteFormativo:
-      'Logística operacional, clasificación y normatividad de mercancías',
+    componenteFormativo: 'Monitoreo y recolección de información de mercancías',
     descripcionCurso:
       'Este componente permitirá analizar la cadena de suministro a partir del estudio de la forma de su composición con el ánimo de evaluar el desarrollo, la mejora de su producción y comercialización de productos, lo que permitirá entender el manejo de la cadena de suministro.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
@@ -106,17 +105,17 @@ export default {
   referencias: [
     {
       referencia:
-        'De Boer, L, Labro, E. and Morlacchi, P. (2001). A review of methods supporting suplier selection. European Journal of purchasing and Supply Management',
+        'De Boer, L., Labro, E. and Morlacchi, P. (2001). <em>A review of methods supporting suplier selection. European Journal of purchasing and Supply Management.</em>',
       link: '',
     },
     {
       referencia:
-        'López, Víctor (2008), Gestión eficaz de los procesos productivos. Editorial Especial Directivos. Primera edición.',
+        'López, Víctor. (2008). Gestión eficaz de los procesos productivos. Editorial Especial Directivos. Primera edición.',
       link: '',
     },
     {
       referencia:
-        'Ramírez, A. C. (2009). Manual de Gestión Logística del Transporte y Distribución de Mercancías. Barranquilla Colombia: Uninorte.',
+        'Ramírez, A. C. (2009). Manual de Gestión Logística del Transporte y Distribución de Mercancías. Barranquilla, Colombia: Uninorte.',
       link: '',
     },
   ],
@@ -166,6 +165,27 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Nelly Parra Guarín',
+        cargo: 'Experta temática',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Paula Andrea Taborda Ortiz',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Jhana Johanna Bustillo Ardila',
+        cargo: 'Revisión de estilo',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
     ],
     desarrolloProducto: [
       {
@@ -180,25 +200,31 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Marcela González Gómez',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Luis Jesús Pérez Madariaga',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Soporte Front-End',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: '',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Jenny Paola Montillo Gélvez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
@@ -208,7 +234,7 @@ export default {
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },
