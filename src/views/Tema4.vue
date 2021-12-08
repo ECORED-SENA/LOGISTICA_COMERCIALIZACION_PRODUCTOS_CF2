@@ -234,10 +234,13 @@ export default {
   font-weight: bold
   color: #12263F
 .tarjeta-flip__contenido h3
-  word-break: break-all
+  word-break: break-word
 .tarjeta-flip__contenido
   display: flex
   align-items: center
+  place-content: space-around
 .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
     background-color: #D6C5E2
+.linea-tiempo-d__item__content__title
+  height: 70px
 </style>

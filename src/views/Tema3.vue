@@ -41,7 +41,7 @@
 
     .col-lg-8.m-auto
       .cajon.color-secundario.p-4.mb-4
-        .h5.text-center #[em lead time] = fecha de entrega – fecha de pedido
+        .h5.text-center #[em Lead time] = fecha de entrega – fecha de pedido
         img.mt-3(src='@/assets/curso/tema3/3.svg', alt='' data-aos="fade-up")
 
     p.mt-5(data-aos="fade-up") En la programación de los tiempos de la cadena de suministros, se debe tener en cuenta la correcta distribución que depende de una red de abastecimiento, donde se observan los diferentes pedidos del cliente con todos los tiempos de ciclo de los productos, teniendo en cuenta los materiales que se utilizan de las partes de producción, los tiempos de ciclo de compras; es por ello, que aunque el cálculo del indicador es muy sencillo, para la planeación es fundamental conocer todos los #[em lead time] y de esta forma saber exactamente fechas de entrega. A continuación, podrá conocer el diagrama de #[em lead time] a lo largo de la cadena de suministro.
@@ -49,11 +49,11 @@
     img.mt-5(src='@/assets/curso/tema3/4.svg', alt='' data-aos="fade-up")
 
     .row.mt-5
-      .col-md-7
+      .col-lg-7
         .cajon-b.color-primario.p-3.cajon_1
           p(data-aos="fade-up") Tomando el ejemplo del diagrama mostrado, para un cliente de la cadena de suministro, el #[em lead time] será el acumulado del resto: el de los proveedores de materias primas, el de la fábrica que tiene que producirlo y el del centro de distribución que lo enviará. Por eso, aunque el cálculo del #[em lead time] sea sencillo, es importante conocer su desglose en profundidad para una correcta organización de las operaciones. Además, hay que tener en cuenta otros cambios adicionales, como que el proveedor solo reconozca las demandas en un día concreto de la semana (si solo acepta pedidos los martes y los jueves, el retraso para un pedido realizado el lunes será de un día).
           p.mt-3(data-aos="fade-up") Los tiempos de aprovisionamiento se miden con mayor precisión en función del historial de demanda y entregas de la organización. Se trata de un punto de partida más fiable que las promesas oficiales de los proveedores, porque en la realidad suele haber variaciones.
-      .col-md-5
+      .col-lg-5
         img(src="@/assets/curso/tema3/5.svg" data-aos="fade-left")
 
     .col-lg-11.m-auto.mt-5

@@ -11,7 +11,7 @@
       .col-md-7
         .cajon-b.color-primario.p-3
           p(data-aos="fade-up") La selección de proveedores es un proceso que está presente en toda organización, ya que la compra de bienes y servicios como maquinaria, materias primas, servicios de limpieza, entre otros, es elemental, por lo que este proceso debe estar enfocado a una investigación de calidad.
-          p.mt-3(data-aos="fade-up") Es conocido, en la mayoría de las empresas, que al departamento de compras o abastecimiento se delega en realizar la investigación y selección de los proveedores que mejor se adapten a las necesidades de la organización. La clave en la selección de proveedores de un producto o servicio radica en el valor de saber qué criterios utilizar para seleccionarlos, ya que se debe tener en cuenta qué tipo de efecto tendrán los productos o servicios que proporcionan y si esto tendrá un efecto positivo en la productividad, la calidad y la competitividad de la propia organización.
+          p.mt-3(data-aos="fade-up") Es conocido, en la mayoría de las empresas, que al departamento de compras o abastecimiento se delega realizar la investigación y selección de los proveedores que mejor se adapten a las necesidades de la organización. La clave en la selección de proveedores de un producto o servicio radica en el valor de saber qué criterios utilizar para seleccionarlos, ya que se debe tener en cuenta qué tipo de efecto tendrán los productos o servicios que proporcionan y si esto tendrá un efecto positivo en la productividad, la calidad y la competitividad de la propia organización.
           p.mt-3(data-aos="fade-up") La búsqueda y selección de proveedores se puede hacer por diferentes motivos, ya sea porque la organización comienza a operar y no tiene proveedores, la organización ya tiene proveedores, pero no satisfacen sus necesidades y necesita mejor calidad, o quiere ampliar la cartera de proveedores para que la organización tenga un parámetro de comparación y ver si quiere mejorar.
       .col-md-5
         img(src="@/assets/curso/tema1/1.svg" data-aos="fade-left")
@@ -196,8 +196,9 @@ export default {
 .tabs-a.color-acento-botones .tabs-a__tab:hover, .tabs-a.color-acento-botones .tabs-a__tab:active, .tabs-a.color-acento-botones .tabs-a__tab:focus
     background-color: #34D9C7
 .tarjeta-flip__contenido h3
-  word-break: break-all
+  word-break: break-word
 .tarjeta-flip__contenido
   display: flex
   align-items: center
+  place-content: space-around
 </style>
