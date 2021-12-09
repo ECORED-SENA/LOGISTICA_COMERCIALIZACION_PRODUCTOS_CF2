@@ -96,82 +96,80 @@
     p.mt-5(data-aos="fade-up") De acuerdo con lo anterior, es importante tener en cuenta los siguientes factores en el proceso de distribución de mercancías.
 
     .row.mt-5.m-auto
-      .col-lg-1
-      .col-lg-2
+      .col-lg-3
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema4/9.svg')})`}")
             .tarjeta-flip__contenido.p-3(style="background-color:#34D9C7;")
               h3.mt-5.mb-5.text-white.text-center La carga
-      .col-lg-2
+      .col-lg-3
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema4/10.svg')})`}")
             .tarjeta-flip__contenido.p-3(style="background-color:#7B1FA2;")
               h3.mt-5.mb-5.text-white.text-center Empaque, envases y embalajes
-      .col-lg-2
+      .col-lg-3
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema4/11.svg')})`}")
             .tarjeta-flip__contenido.p-3(style="background-color:#34D9C7;")
               h3.mt-5.mb-5.text-white.text-center Marcado, unitarización, contenedorización
-      .col-lg-2
+      .col-lg-3
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema4/12.svg')})`}")
             .tarjeta-flip__contenido.p-3(style="background-color:#7B1FA2;")
               h3.mt-5.mb-5.text-white.text-center Contrato de compraventa 
-      .col-lg-2
+    
+    .row.mt-5.m-auto
+      .col-lg-3
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema4/13.svg')})`}")
             .tarjeta-flip__contenido.p-3(style="background-color:#34D9C7;")
               h3.mt-5.mb-5.text-white.text-center Contrato de transporte
-      .col-lg-1
-    .row.mt-5.m-auto
-      .col-lg-1
-      .col-lg-2
+      .col-lg-3
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema4/14.svg')})`}")
             .tarjeta-flip__contenido.p-3(style="background-color:#7B1FA2;")
               h3.mt-5.mb-5.text-white.text-center Términos internacionales de comercialización (Inconterms)
-      .col-lg-2
+      .col-lg-3
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema4/15.svg')})`}")
             .tarjeta-flip__contenido.p-3(style="background-color:#34D9C7;")
               h3.mt-5.mb-5.text-white.text-center Crédito documentario (cartas de crédito) – (seguridad de pago)
-      .col-lg-2
+      .col-lg-3
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema4/16.svg')})`}")
             .tarjeta-flip__contenido.p-3(style="background-color:#7B1FA2;")
               h3.mt-5.mb-5.text-white.text-center Seguros
-      .col-lg-2
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+    
+    .row.mt-5.m-auto.justify-content-center
+      .col-lg-3
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false" style="min-height:250px;")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema4/17.svg')})`}")
             .tarjeta-flip__contenido.p-3(style="background-color:#34D9C7;")
               h3.mt-5.mb-5.text-white.text-center Acuerdos comerciales
-      .col-lg-2
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+      .col-lg-3
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false" style="min-height:250px;")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema4/18.svg')})`}")
             .tarjeta-flip__contenido.p-3(style="background-color:#7B1FA2;")
               h3.mt-5.mb-5.text-white.text-center Tipos de transporte
-      .col-lg-1
-
 
 
 
