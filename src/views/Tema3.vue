@@ -33,9 +33,6 @@
       .tarjeta.color-acento-botones.p-3.text-center(x="79%" y="60%" numero="" style="background-color:#CFDDFC;")
         .h4.mb-2 El vendedor
         p Tiene conocimiento del #[em lead time] del departamento de producción para cumplir con tiempos de entrega con los clientes.
-      .tarjeta.color-acento-botones.p-3.text-center(x="19%" y="30%" numero="" style="background-color:#CFDDFC;")
-        .h4.mb-2 Pedido
-        p
 
     p.mt-5(data-aos="fade-up") Para calcular el #[em lead time], se debe tener en cuenta, si se tiene un número de pedidos, pueden ser productos o mercancías con diferentes fechas de entrega, lo único que se obtiene son los días transcurridos para la entrega y se contabilizan según el calendario. Es decir:
 

@@ -1,6 +1,7 @@
 export default {
   global: {
-    componenteFormativo: 'Monitoreo y recolección de información de mercancías',
+    componenteFormativo:
+      'Seguimiento, monitoreo y recolección de información de mercancías',
     descripcionCurso:
       'Este componente permitirá analizar la cadena de suministro a partir del estudio de la forma de su composición con el ánimo de evaluar el desarrollo, la mejora de su producción y comercialización de productos, lo que permitirá entender el manejo de la cadena de suministro.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
@@ -262,6 +263,11 @@ export default {
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Álvaro Andrés Angarita Ramirez',
         cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },

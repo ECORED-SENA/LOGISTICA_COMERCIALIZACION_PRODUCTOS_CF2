@@ -43,8 +43,8 @@
               p.text-small.text-white Conoce sobre las diferentes técnicas de recolección de datos y su importancia en la logística de comercialización de productos.
             .col-sm-auto
               a.boton.texto-blanco(href="https://www.youtube.com/embed/TinhDQv6UH8" target="_blank")
-                span Descargar
-                i.fas.fa-file-download  
+                span Ver video
+                i.fas.fa-play
 
 
 
